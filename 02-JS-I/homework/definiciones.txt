@@ -1,0 +1,11 @@
+
+    Variables: son expresiones a las que se le asigna un valor que puede ser un número, un string, un booleano, un valor "null" o un valor "undefined".
+
+    Strings: es un tipo de datos que puede contener de cero a infinitos caracteres, los cuales pueden ser números, leteras, caracteres especiales o espacios en blano y siempre estarán introducidos entre comillas.
+
+    Funciones (argumentos, return): las fuciones estan formadas por uno o mas statements, las cuales son definidas para resolver un problema determinado. Se crean para favorecer la legilibidad y la reutilización del código. A menudo las funciones reciben argumentos por medio de parámetros, aunque esto no es una característica excluyente. Todas las funciones retornan luego de su ejecución una expresión.
+
+    Declaraciones if: las declaraciones if son statements que ejecutan un bloque de código bajo la condición de una expresión booleana.
+
+    Valores booleanos (true, false): son expresiones que indica un valor de verdad. Los valores booleanos True y False son característos de las operaciones de comparación
+    
