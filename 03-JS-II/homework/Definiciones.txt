@@ -1,0 +1,4 @@
+* `for`: es un bucle que ejecuta un bloque de código hasta un punto determinado por una condición de corte. Se utiliza cuando se sabe de ante mano cuantas veces se tiene que repetir la ejecución del bloque. Es también particularmente util cuando es necesario recorrer todos los elementos de una lista. 
+
+
+* `&&`, `||`, `!`: and (y), or (o), not(no) respectivamente. Son operadores lógicos que se utilizan cuando tenemos que disponer de un valor booleano (True o False) para tomar decisiones en base a que se cumpla una determinada condición
