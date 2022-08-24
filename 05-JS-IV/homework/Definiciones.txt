@@ -1,0 +1,9 @@
+* Objetos: Un objeto es una colecciones de propiedades que definen al propio objeto y las cuales describen un valor
+
+* Propiedades: son strings que actuan al igual que los indices en los arreglos y que apuntan a un valor que define al objeto
+
+* Métodos: los métodos son funciones que se implementan dentro de alguna de las propiedades que modelan un objeto determinado 
+
+* Bucle `for…in`: este tipo de bucle es ideal para recorrer objetos ya que, los objetos no tienen índices numéricos como los arreglos, sino que son strings que nombran las propiedades del objeto que se esta recorriendo
+
+* Notación de puntos vs notación de corchetes: la notación de puntos tiene como ventaja que es mas facil de escribir. Da la posibilidad de realizar una escritura mas fluida, En tanto la notación por corchetes tiene mayor funcionalidad ya que puede ser utilizada con variables y es util si se necesita recorrer un objeto.
