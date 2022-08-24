@@ -1,0 +1,2 @@
+* Arrays
+Es una sucesión de n elementos, los cuales pueden de ser cualquier tipo (str, num, booleano, null, undefined, array)y se pueden acceder por medio de indices para ser utilizados en distintas declaraciones ya que, cada componente de un arrary puede considerarse una expresión
