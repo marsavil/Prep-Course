@@ -1,0 +1,3 @@
+* `prototype: es una propiedad asociada a una clase. En lugar de definir esa propiedad cada vez que se instancia la mencionada clase, se declara solo una vez en el prototipo de esa clase. De esta manera se ahorra espacio de memoria
+
+* _Constructors_ (de Clases): los constructores son la forma de acceder a las plantillas que nos permiten crear objetos
