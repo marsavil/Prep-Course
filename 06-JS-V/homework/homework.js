@@ -17,7 +17,7 @@ function crearUsuario() {
   // Devuelve la clase
   // Tu código:
   class Usuario{
-    contructor(opciones){
+    constructor(opciones){
       this.usuario = opciones.usuario,
       this.email = opciones.email,
       this.nombre = opciones.nombre,
@@ -27,8 +27,8 @@ function crearUsuario() {
   Usuario.prototype.saludar = function(){
     return "Hola, mi nombre es " + this.nombre
   };
-  let nuevoUsuario = new Usuario(opciones);
-  return nuevoUsuario;
+  
+  return Usuario;
 
 };
 
@@ -50,10 +50,10 @@ function agregarStringInvertida() {
 
     String.prototype.reverse = function(){
       var reversed = "";
-      for(let indice = 0; indice < this.string.length; indice ++){
-        reversed.unshift(this.string[indice]);
-        return reversed;
+      for(let indice = this.length - 1; indice >= 0; indice --){
+        reversed =  reversed + this[indice];
       };
+      return reversed;
     };
 };
 
@@ -73,9 +73,14 @@ function agregarStringInvertida() {
       this.nombre = nombre,
       this.apellido = apellido,
       this.edad = edad,
-      this.omicilio =domicilio
-
-    }
+      this.domicilio = domicilio,
+      Persona.prototype.detalle = function(){
+        return "Nombre: " + this.nombre,
+        "Apellido: " + this.apellido,
+        "Edad: " + this.edad,
+        "Domicilio: " + this.domicilio;
+      }
+    }  
 }
 
 function crearInstanciaPersona(nombre, apellido, edad, dir) {
