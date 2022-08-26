@@ -1,0 +1,15 @@
+h1{
+    color: darkslategray;
+}
+img{
+    width: 400px;
+}
+#thirdDiv{
+    height: 600px;
+    background-color: blanchedalmond;
+    border: 10px;
+}
+#spanId{
+    size: 18px;
+    margin: 50px;
+}
