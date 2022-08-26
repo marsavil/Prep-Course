@@ -1,49 +1,138 @@
 body{
     text-align: center;
+    background-color: black
     
 }
+
 #cabecera{
-    width: 960px;
-    height:100px
-}
-
-#Titulo{
-    float: right;
-    width: 860px;
-    height:100px;
-    background-color: rgb(32, 22, 22);
-    float: right;
-
-}
-#foto{
-    width: 100px;
-    height: 100px;
-    float: right;
-    background-color: black;
-}
-#sección{
-    width:600px;
-    height:800px;
-    margin: 30px;
-    float: right;
-    clear: both;
-}
-
-aside, section, div, head{
     display: inline-block;
+    width: 960px;
+    height:auto;
+    background-color:  rgb(34, 34, 30);
 }
-#columna{
-    float: left;
-    width: 220px;
-    margin: 20px 0px;
-    padding: 20px;
-}    
-    
+
+#título{
+    display: inline-block;
+    width: 900px;
+    height:auto;
+    background-color:  rgb(34, 34, 30);
+    float: none;
+
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 33px;
+    color: whitesmoke;
+    text-shadow: rgba(241, 241, 245, 1) 3px 3px 5px;
+
+}
 #agrupar {
     width: 960px;
     margin: 15px auto;
-    text-align: left;
+    text-align: center;
     background-color: rgb(17, 12, 5);
 }
+#columna{
+    text-align: center;
+    float: left;
+    width: 360px;
+    height: auto;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(34, 34, 30);
+    
+}    
+#foto{
+    margin:10px auto;
+    width: 304px;
+    height: auto;
+    padding: 20px;
+    background-color: rgb(34, 34, 30);
+
+}
+img{
+    max-width: 250px;
+    max-height: 250px;
+}
+
+#descripción{
+    text-align: left;
+    margin:10px auto;
+    width: 304px;
+    height:auto;
+    padding: 20px;
+    background-color: rgb(34, 34, 30);
+
+}
+#skills{
+    text-align: left;
+    margin:0px auto;
+    width: 304px;
+    height:auto;
+    padding: 20px;
+    background-color: rgb(34, 34, 30);
+}
+#hobbies{
+    text-align: left;
+    margin:0px auto;
+    width: 304px;
+    height:auto;
+    padding: 20px;
+    background-color:  rgb(34, 34, 30);
+}
+
+#sección{
+    text-align: left;
+    width:520px;
+    height:auto;
+    margin: 10px;
+    float: left;
+    
+
+}
+#educación{
+    width:480px;
+    height:auto;
+    padding: 20px;
+    background-color: rgb(34, 34, 30);
+}
+#experiencia{
+    width:480px;
+    padding: 20px;
+    height:auto;
+    background-color: rgb(34, 34, 30);
+}
+
+
+aside, section, div,header {
+    display: inline-block;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+}
+#apartado{
+    font-size: 20px;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+li{
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke
+}
+#lista{
+    list-style-type: none;
+}
+#institución{
+    font-size: 13px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+#estado{
+    font-size: 10px;
+    color: whitesmoke;
+}
+    
+
         
 
