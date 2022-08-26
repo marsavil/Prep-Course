@@ -13,3 +13,13 @@ img{
     size: 18px;
     margin: 50px;
 }
+body{
+    background-image: url(https://media.istockphoto.com/photos/wire-mesh-texture-on-white-background-picture-id526493429?s=612x612);
+    text-align: center;
+}
+div{
+    display: block;
+    align-content: center;
+    
+
+}
