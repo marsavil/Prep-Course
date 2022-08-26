@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    
+}
+#cabecera{
+    width: 960px;
+    height:100px
+}
+
+#Titulo{
+    float: right;
+    width: 860px;
+    height:100px;
+    background-color: rgb(32, 22, 22);
+    float: right;
+
+}
+#foto{
+    width: 100px;
+    height: 100px;
+    float: right;
+    background-color: black;
+}
+#sección{
+    width:600px;
+    height:800px;
+    margin: 30px;
+    float: right;
+    clear: both;
+}
+
+aside, section, div, head{
+    display: inline-block;
+}
+#columna{
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+}    
+    
+#agrupar {
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
+    background-color: rgb(17, 12, 5);
+}
+        
+
