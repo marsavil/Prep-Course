@@ -118,11 +118,20 @@ p{
     font-size: 20px;
     font-weight: bolder;
     color: rgb(38, 207, 38);
+    
+}
+#apartado img{
+    opacity: 0;
+    
 }
 #apartado:hover{
     font-size: 20px;
     font-weight: bolder;
     color: rgb(35, 148, 35);
+}
+#apartado:hover >img{
+    opacity: 1;
+    
 }
 li{
     font-family: 'Courier New', Courier, monospace;
