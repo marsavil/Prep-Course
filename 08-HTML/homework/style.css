@@ -125,8 +125,10 @@ li{
 }
 #institución{
     font-size: 13px;
+    color: whitesmoke
+}
+#item{
     font-weight: bold;
-    color: whitesmoke;
 }
 #estado{
     font-size: 10px;
