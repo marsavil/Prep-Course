@@ -1,8 +1,5 @@
 // No cambies los nombres de las funciones.
 
-function meow(){ 
-  return "Meow!";
-}
 
 function crearGato(nombre, edad) {
   // Crear un nuevo objeto con la propiedad "nombre" y el valor definido como el argumento "nombre".
@@ -15,8 +12,8 @@ function crearGato(nombre, edad) {
     edad : edad,
     meow : function(){ 
       return "Meow!";
-      }
-  };
+    }
+  }
 return gato;
   
 }
